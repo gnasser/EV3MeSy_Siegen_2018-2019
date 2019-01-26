@@ -40,6 +40,8 @@ the implemented code was [18_01_22_Control_general_class.py](https://github.com/
  
  To inicialize the /color and /ultrasonic node at the same time, is needed to call roslaunch with the [file](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/h4r_ev3_ctrl/h4r_ev3_launch/launch/sensors.launch) in which it have to be specified the file path where sensors.yaml is llocated. sensors.launch is a file where the sensors nodes are initialized and if it's needed to use another sensor could be added there. (see the [launch](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/tree/master/h4r_ev3_ctrl/h4r_ev3_launch/launch) and [config](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/tree/master/h4r_ev3_ctrl/h4r_ev3_launch/config) folder).
  
+ [![Robot running](https://img.youtube.com/vi/dpWQEXYTF88/0.jpg)](https://www.youtube.com/watch?v=dpWQEXYTF88)
+ 
  
  
 
