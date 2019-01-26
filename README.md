@@ -28,7 +28,7 @@ the implemented code was [18_01_22_Control_general_class.py](https://github.com/
 #### Sensors
 
 ##### Color sensor
- - The color sensor sensor was used in reflect mode [this mode can be modified changing this file](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/h4r_ev3_ctrl/h4r_ev3_launch/config/color.yaml), the sensor registers illuminances values between 0 (black) and 100 (white).
+ - The color sensor sensor was used in reflect mode this mode can be modified changing teh mode parameter in this [file](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/h4r_ev3_ctrl/h4r_ev3_launch/config/color.yaml), the sensor registers illuminances values between 0 (black) and 100 (white).
  - To inicialize the /color node, is needed to call roslaunch with the [file](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/h4r_ev3_ctrl/h4r_ev3_launch/launch/color.launch) in which it have to be specified the file path where color.yaml is llocated.
  - The robot follow the right black line border due to we have only one color sensor.
  - Se tomaron medidas con el sensor de color en la fontera entre el negro y el blanco (midpos), en completamente blanco y completamente negro.
