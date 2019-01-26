@@ -18,7 +18,7 @@ The robot have to be capable to start at START point, drive to the loading stati
  
 The implemented software frame was ROS Indigo in VirtualBox ([download image](https://nootrix.com/diy-tutos/ros-indigo-virtual-machine/)), However, it is also possible to work on Ubuntu 14.04.
 
-As introductory form it is recommended to read the [slises](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Robot%20Operating%20System%20(ROS).pdf) and follow step by step the instructions so that the PC-robot conection be achieved and run the necessary nodes.
+As introductory form it is recommended to read the [slides](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Robot%20Operating%20System%20(ROS).pdf) and follow step by step the instructions so that the PC-robot conection be achieved and run the necessary nodes.
 
 ### Implementation 
 
