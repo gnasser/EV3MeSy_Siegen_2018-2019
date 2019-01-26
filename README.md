@@ -1,23 +1,22 @@
-# Robot para almacenaje automatizado
-
-La finalidad de este proyecto es construir y programar un robot de almacen utilizando los componentes del Mindstorm Ev3 core set 45544
+# Automated Warehouse Robots
+Build and program a LEGO robot using the Mindstorm Ev3 core set 45544 components.
 
 <img src="https://le-www-live-s.legocdn.com/images/423923/live/sc/Products/5003400/5003400_1050x1050_1_xx-xx/63feb014132ef703a7e6d2c600b1d52d/2d9e36d3-afaf-4203-aa23-a58d00d7ca07/original/2d9e36d3-afaf-4203-aa23-a58d00d7ca07.jpg?fit=inside|855:640"  alt= "Diagrama de Bloques" height="400" width = "400"> 
 
-El robot debe ser capaz de iniciar el un punto de partida (START), dirigirse a la estación de carga (LOADING) donde debe recoger una caja, contuniar su camino hasta el almacen (STORAGE) donde debe dejar la caja para finalmente volver al punto de partida y repetir la tarea. El camino está indicado con una línea negra en el suelo y el robot ha sido programado para seguir el borde derecho de esta línea.
+The robot have to be capable to start at START point, drive to the loading station where it have to pick a box up, continue its path to the storage station where it have to leave the box to finally come back to the start point to reapeat the duty. the path is signalized by mean a black line on the floor and the robot follow the rigth border.
 
-### Especificaciones de programación
+### Programming Specifications
 
- - ROS como frame de desarrollo de software
- - Los códigos desarrollados se hicieron en python
- - En el robot se corre la imagen Hack4ROS EV3 Linux como sistema operativo ([mas info](http://hacks4ros.github.io/h4r_ev3_ctrl/))
+ - Software development frame is ROS Indigo
+ - Programming language is C++ or python
+ - Hack4ROS EV3 Linux image as EV3 operating system ([more info](http://hacks4ros.github.io/h4r_ev3_ctrl/))
  
-### Sensores utilizados
+### Sensors
 
- - Sensor de color en modo reflect (0 negro, 100 blanco) sensor_msgs.msg.Illuminance
- - Sensor ultrasonico en modo distance (distancia en metros) sensor_msgs.msg.Range
+ - *Color sensor* reflect mode (0 black, 100 white) sensor_msgs.msg.Illuminance
+ - *Ultrasonic sensor* distance mode (distance in meters) sensor_msgs.msg.Range
  
-Se trabajó con ROS Indigo en una máquina virtual ([descargar imagen](https://nootrix.com/diy-tutos/ros-indigo-virtual-machine/)), sin embargo también se puede trabajar directamente con una PC donde se tenga Ubuntu 14.04
+The implemented software frame was ROS Indigo in VirtualBox ([download image](https://nootrix.com/diy-tutos/ros-indigo-virtual-machine/)), However, it is also possible to work on Ubuntu 14.04.
 
 As introductory form it is recommended to read the [slises](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Robot%20Operating%20System%20(ROS).pdf) and follow step by step the instructions so that the PC-robot conection be achieved and run the necessary nodes.
 
