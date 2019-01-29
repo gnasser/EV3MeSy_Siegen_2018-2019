@@ -3,7 +3,7 @@ Build and program a LEGO robot using the Mindstorm Ev3 core set 45544 components
 
 <img src="https://le-www-live-s.legocdn.com/images/423923/live/sc/Products/5003400/5003400_1050x1050_1_xx-xx/63feb014132ef703a7e6d2c600b1d52d/2d9e36d3-afaf-4203-aa23-a58d00d7ca07/original/2d9e36d3-afaf-4203-aa23-a58d00d7ca07.jpg?fit=inside|855:640"  alt= "Diagrama de Bloques" height="400" width = "400"> 
 
-The robot have to be capable to start at START point, drive to the loading station where it have to pick a box up, continue its path to the storage station where it have to leave the box to finally come back to the start point to reapeat the duty. the path is signalized by mean a black line on the floor and the robot follow the rigth border.
+The robot have to be capable to start at START point, drive to the loading station where it have to pick a box up, continue its path to the storage station where it have to leave the box to finally come back to the start point to reapeat the duty. the path is signalized by mean a black line on the floor and the robot follows the rigth border.
 
 ### Programming Specifications
 
