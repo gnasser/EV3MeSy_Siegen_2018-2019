@@ -18,11 +18,11 @@ The robot have to be capable to start at START point, drive to the loading stati
  
 The implemented software frame was ROS Indigo in VirtualBox ([download image](https://nootrix.com/diy-tutos/ros-indigo-virtual-machine/)), However, it is also possible to work on Ubuntu 14.04.
 
-As introductory form it is recommended to read the [slides](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Robot%20Operating%20System%20(ROS).pdf) and follow step by step the instructions so that the PC-robot conection be achieved and run the necessary nodes.
+As introductory form it is recommended to read this [slides](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Robot%20Operating%20System%20(ROS).pdf) and follow step by step the instructions so that the PC-robot conection be achieved and run the necessary nodes.
 
 ### Implementation 
 
-the implemented code was [18_01_22_Control_general_class.py](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/18_01_22_Control_general_class.py)
+The implemented code was [18_01_22_Control_general_class.py](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/18_01_22_Control_general_class.py)
 
  - The builded design is the one showed in the picture, is important to mencion that the color and ultrasonic sensors are in the symetric axis of the robot, in case that the color sensor were placed in another part of the structure the algorithm could have to be modified.
 #### Sensors
