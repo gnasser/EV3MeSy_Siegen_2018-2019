@@ -22,7 +22,7 @@ As introductory form it is recommended to read this [slides](https://github.com/
 
 ### Implementation 
 
-The implemented code was [18_01_22_Control_general_class.py](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/18_01_22_Control_general_class.py). To run it follow the [Step by Step](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/wiki/Step-by-Step) 
+The implemented code was [18_01_22_Control_general_class.py](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/18_01_22_Control_general_class.py). To run it follow step 8 in the [Step by Step] (https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/wiki/Step-by-Step) page.
 
  - The builded design is the one showed in the picture, is important to mencion that the color and ultrasonic sensors are in the symetric axis of the robot, in case that the color sensor were placed in another part of the structure the algorithm could have to be modified.
 #### Sensors
