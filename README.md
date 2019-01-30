@@ -5,6 +5,9 @@ Build and program a LEGO robot using the Mindstorm Ev3 core set 45544 components
 
 The robot have to be capable to start at START point, drive to the loading station where it have to pick a box up, continue its path to the storage station where it have to leave the box to finally come back to the start point to reapeat the duty. The path is signalized by mean a black line on the floor and the robot follows the right border.
 
+<img src="https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Path_MeSy.png"  alt= "Diagrama de Bloques" height="400" width = "800">
+
+
 ### Programming Specifications
 
  - Software development frame is ROS Indigo
