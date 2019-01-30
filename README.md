@@ -5,7 +5,7 @@ Build and program a LEGO robot using the Mindstorm Ev3 core set 45544 components
 
 The robot have to be capable to start at START point, drive to the loading station where it have to pick a box up, continue its path to the storage station where it have to leave the box to finally come back to the start point to reapeat the duty. The path is signalized by mean a black line on the floor and the robot follows the right border.
 
-<img src="https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Path_MeSy.png"  alt= "Diagrama de Bloques" height="400" width = "800">
+<img src="https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Fotos/Path_MeSy.png"  alt= "Path" height="250" width = "500">
 
 
 ### Programming Specifications
@@ -21,13 +21,22 @@ The robot have to be capable to start at START point, drive to the loading stati
  
 The implemented software frame was ROS Indigo in VirtualBox ([download image](https://nootrix.com/diy-tutos/ros-indigo-virtual-machine/)), However, it is also possible to work on Ubuntu 14.04.
 
-As introductory form it is recommended to read this [slides](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Robot%20Operating%20System%20(ROS).pdf) and follow step by step the instructions so that the PC-robot conection be achieved and run the necessary nodes.
+As introductory form it is recommended:
+- Read the book [A Gentle Introduction to ROS](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/A%20Gentle%20Introduction%20to%20ROS.pdf)
+- Follow the [Step by Step](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/wiki/Step-by-Step) post
+- Read this [slides](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Robot%20Operating%20System%20(ROS).pdf) and follow step by step the instructions so that the PC-robot conection be achieved and run the necessary nodes.
+- If you know about ROS and you only want to know how to run the implemented code or a new version the [Fast running](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/wiki/Fast-running) is ideal.
 
 ### Implementation 
 
-The implemented code was [18_01_22_Control_general_class.py](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/18_01_22_Control_general_class.py). To run it follow step 8 in the [Step by Step] (https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/wiki/Step-by-Step) page.
+The implemented codes are explaned in [Code page](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/wiki/Codes). To run it follow step 8 in the [Step by Step] (https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/wiki/Step-by-Step) page.
 
  - The builded design is the one showed in the picture, is important to mencion that the color and ultrasonic sensors are in the symetric axis of the robot, in case that the color sensor were placed in another part of the structure the algorithm could have to be modified.
+ 
+<img src="https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/blob/master/Fotos/IMG_20190129_181156.jpg"  alt= "ROBOT" height="400" width = "600">
+
+There are more photos in the folder [Fotos](https://github.com/samirasancheze/EV3MeSy_Siegen_2018-2019/tree/master/Fotos)
+
 #### Sensors
 
 ##### Color sensor
