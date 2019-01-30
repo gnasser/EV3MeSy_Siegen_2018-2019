@@ -1,0 +1,39 @@
+	wifi_74da38cd3511_525354_managed_psk
+Enviarle info a motores
+	viki@c3po:~/catkin_ws/src/h4r_ev3_ctrl/h4r_ev3_launch/launch$ rostopic pub /ev3dev/OutPortA/command std_msgs/Float64 "data: 0.0"
+setear IP de robot en 
+	root@ev3dev:~# ros_ip_set wlan0 192.168.0.103 (Ip del robot)
+build packages en catkin_ws
+	catkin_make
+	. ~/catkin_ws/devel/setup.bash
+Launch motors
+	viki@c3po:~$ roslaunch /home/viki/catkin_ws/src/h4r_ev3_ctrl/h4r_ev3_launch/launch/motors.launch ev3_hostname:=ev3dev
+
+
+21-01-19
+
+Negro 11
+Blanco 88
+midpos 54
+1/4 Blanco 16
+1/4 Negro 75
+
+22-01-19
+sensor debajo del carro
+
+Negro 14
+Blanco 79
+midpos 26 // 37 // 58
+1/4 Blanco 28
+1/4 Negro 74
+
+23-01-2019
+
+Sensor 
+
+motor L OutPortA
+motor R OutPortB
+motor Crane OutPortC
+Color in3
+Ultrasonic in1
+Gyro in4
